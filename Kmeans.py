@@ -16,4 +16,4 @@ kmeans.fit(X)
 print(kmeans.labels_)
 plt.scatter(X[:,0],X[:,1], c=kmeans.labels_, cmap='rainbow')
 plt.show()
-# print "hello"
+print "hello"
